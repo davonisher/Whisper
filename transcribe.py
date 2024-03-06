@@ -11,7 +11,7 @@ file_path = "/Users/macbook/Downloads/Thesis structuur/Recordings/Recording 1.m4
 logging.basicConfig(level=logging.INFO)
 
 # Instantiate OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-XXXXXXXXXXXXX")
 
 def transcribe_audio(file_path):
     try:
